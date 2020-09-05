@@ -10,6 +10,25 @@ import UIKit
 
 class HomeViewController: LHViewController {
 
+    private lazy var pageTitleView: PageTitleView = {[weak self] in
+        let titles = ["推荐","游戏","娱乐","趣玩"]
+        let titleView = PageTitleView(frame: CGRect(x: 0, y: kNavigationBarH, width: kScreenW, height: 40), titles: titles)
+        return titleView
+    }()
+    
+    lazy var pageContentView: PageContentView = {[weak self] in
+        
+        var childvc = [UIViewController]()
+        childvc.append(RecommandViewController())
+        childvc.append(GameViewController())
+        childvc.append(EntertainmentVC())
+        childvc.append(FunViewController())
+        
+        let contentView = PageContentView(frame: CGRect(x: 0, y: kNavigationBarH+40, width: kScreenW, height: kScreenH-kNavigationBarH-40-kTabBarH), childVcs: childvc, parentVc: self)
+        return contentView
+    }()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,7 +43,9 @@ extension HomeViewController {
         
         setNavigationBar()
         
+        view.addSubview(pageTitleView)
         
+        view.addSubview(pageContentView)
     }
 
     func setNavigationBar() -> Void {

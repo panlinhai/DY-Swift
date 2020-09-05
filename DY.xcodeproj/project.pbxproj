@@ -12,6 +12,13 @@
 		C94E866F24FF7C1B004250AA /* LHPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E866E24FF7C1B004250AA /* LHPageTitleView.swift */; };
 		C94E867124FF7FAA004250AA /* LHPageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E867024FF7FAA004250AA /* LHPageStyle.swift */; };
 		C94E867324FF8486004250AA /* LHPageColor-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94E867224FF8486004250AA /* LHPageColor-extension.swift */; };
+		C9508A1F25035B9200EEEA9C /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9508A1D25035B9200EEEA9C /* PageTitleView.swift */; };
+		C9508A2025035B9200EEEA9C /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9508A1E25035B9200EEEA9C /* PageContentView.swift */; };
+		C9508A2225035D9200EEEA9C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9508A2125035D9200EEEA9C /* Common.swift */; };
+		C9508A2425035EAD00EEEA9C /* RecommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9508A2325035EAD00EEEA9C /* RecommandViewController.swift */; };
+		C9508A2625035EC900EEEA9C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9508A2525035EC900EEEA9C /* GameViewController.swift */; };
+		C9508A2A25035F4200EEEA9C /* EntertainmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9508A2925035F4200EEEA9C /* EntertainmentVC.swift */; };
+		C9508A2C25035F5E00EEEA9C /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9508A2B25035F5E00EEEA9C /* FunViewController.swift */; };
 		C95892B524FE3123001E29F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95892B424FE3123001E29F5 /* AppDelegate.swift */; };
 		C95892B924FE3123001E29F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95892B824FE3123001E29F5 /* ViewController.swift */; };
 		C95892BC24FE3124001E29F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C95892BA24FE3124001E29F5 /* Main.storyboard */; };
@@ -54,6 +61,13 @@
 		C94E866E24FF7C1B004250AA /* LHPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPageTitleView.swift; sourceTree = "<group>"; };
 		C94E867024FF7FAA004250AA /* LHPageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LHPageStyle.swift; sourceTree = "<group>"; };
 		C94E867224FF8486004250AA /* LHPageColor-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LHPageColor-extension.swift"; sourceTree = "<group>"; };
+		C9508A1D25035B9200EEEA9C /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		C9508A1E25035B9200EEEA9C /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+		C9508A2125035D9200EEEA9C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C9508A2325035EAD00EEEA9C /* RecommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandViewController.swift; sourceTree = "<group>"; };
+		C9508A2525035EC900EEEA9C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C9508A2925035F4200EEEA9C /* EntertainmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntertainmentVC.swift; sourceTree = "<group>"; };
+		C9508A2B25035F5E00EEEA9C /* FunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
 		C95892B124FE3123001E29F5 /* DY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95892B424FE3123001E29F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C95892B824FE3123001E29F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +147,8 @@
 		C94E866D24FF7BD4004250AA /* PageView */ = {
 			isa = PBXGroup;
 			children = (
+				C9508A1E25035B9200EEEA9C /* PageContentView.swift */,
+				C9508A1D25035B9200EEEA9C /* PageTitleView.swift */,
 				C94E866E24FF7C1B004250AA /* LHPageTitleView.swift */,
 				C94E867024FF7FAA004250AA /* LHPageStyle.swift */,
 				C94E867224FF8486004250AA /* LHPageColor-extension.swift */,
@@ -209,6 +225,7 @@
 		C984A6B224FE487B00FE7684 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				C9508A2125035D9200EEEA9C /* Common.swift */,
 				C94E866D24FF7BD4004250AA /* PageView */,
 				C94E866A24FF3C38004250AA /* Extention */,
 			);
@@ -274,6 +291,10 @@
 			isa = PBXGroup;
 			children = (
 				C984A6D324FE4CD000FE7684 /* HomeViewController.swift */,
+				C9508A2325035EAD00EEEA9C /* RecommandViewController.swift */,
+				C9508A2525035EC900EEEA9C /* GameViewController.swift */,
+				C9508A2925035F4200EEEA9C /* EntertainmentVC.swift */,
+				C9508A2B25035F5E00EEEA9C /* FunViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -595,20 +616,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9508A2625035EC900EEEA9C /* GameViewController.swift in Sources */,
 				C984A6B824FE495700FE7684 /* LHViewController.swift in Sources */,
+				C9508A2C25035F5E00EEEA9C /* FunViewController.swift in Sources */,
 				C984A6BC24FE499600FE7684 /* LHViewModel.swift in Sources */,
 				C984A6DA24FE4DD100FE7684 /* ProfileViewController.swift in Sources */,
 				C95892B924FE3123001E29F5 /* ViewController.swift in Sources */,
+				C9508A2225035D9200EEEA9C /* Common.swift in Sources */,
 				C984A6BA24FE497400FE7684 /* LHView.swift in Sources */,
+				C9508A2025035B9200EEEA9C /* PageContentView.swift in Sources */,
 				C95892B524FE3123001E29F5 /* AppDelegate.swift in Sources */,
 				C984A6DD24FE4E5200FE7684 /* LHTabbarController.swift in Sources */,
 				C94E866F24FF7C1B004250AA /* LHPageTitleView.swift in Sources */,
+				C9508A1F25035B9200EEEA9C /* PageTitleView.swift in Sources */,
 				C984A6D424FE4CD000FE7684 /* HomeViewController.swift in Sources */,
+				C9508A2425035EAD00EEEA9C /* RecommandViewController.swift in Sources */,
 				C94E867324FF8486004250AA /* LHPageColor-extension.swift in Sources */,
 				C984A6BE24FE49CB00FE7684 /* LHNavgationController.swift in Sources */,
 				C984A6D824FE4DBE00FE7684 /* LiveViewController.swift in Sources */,
 				C984A6D624FE4DB000FE7684 /* FollowViewController.swift in Sources */,
 				C94E867124FF7FAA004250AA /* LHPageStyle.swift in Sources */,
+				C9508A2A25035F4200EEEA9C /* EntertainmentVC.swift in Sources */,
 				C94E866C24FF3CEF004250AA /* UIBarButtonItem-Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

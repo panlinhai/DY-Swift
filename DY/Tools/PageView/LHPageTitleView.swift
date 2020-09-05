@@ -10,7 +10,6 @@ import UIKit
 
 class LHPageTitleView: UIView {
 
-    var <#name#> = <#value#>
     
 
 }
